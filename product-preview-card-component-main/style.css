@@ -1,0 +1,226 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Fraunces');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+}
+
+@media (max-width: 720px){
+
+.container{
+   max-width: 300px;
+   height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.image img:nth-child(2){
+    display: none;
+} 
+
+.perfume{
+    font-size: .8rem;
+    padding: 10px;
+}
+
+
+.perfgab .gab{
+    font-size: 2.1rem;
+    line-height: 27px;
+    padding: 7px;
+}
+
+.a .floral{
+    padding: 10px;
+    line-height: 20px;
+    font-size: .8rem;
+}
+
+.bold{
+    font-size: 2rem;
+}
+
+.btn{
+    width: 270px;
+    height: 50px;
+}
+
+}
+
+
+
+@media (min-width: 730px){
+
+    .container{
+        max-width: 720px;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .image{
+        max-width: 360px;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .perfgab{
+        max-width: 360px;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 45px;
+    }
+    
+    .image img{
+        width: 360px;
+        border-radius: 10px;
+    
+    }
+    
+    .image img:nth-child(1){
+        display: none;
+    } 
+
+    .perfume{
+        font-size: 1rem;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+
+    .perfgab .essence .gab{
+        font-size: 3.2rem;
+        line-height: 40px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+
+    .a .floral{
+        font-size: 1.3rem;
+        line-height: 25px;
+        padding: 10px;
+    }
+
+    .price{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .bold{
+        font-size: 2.5rem;
+        
+    }
+
+    .btn{
+        width: 310px;
+        height: 50px;
+        align-self: center;
+        font-size: 1rem;
+    }
+
+}
+
+.perfgab{
+    padding: 15px;
+}
+
+
+.perfume{
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: hsl(228, 12%, 48%);
+}
+
+.gab{
+   
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+  
+}
+
+.a .floral{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    
+    
+}
+
+
+
+.price{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.bold{
+    
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+
+}
+
+.midline{
+    margin: 20px;
+    text-decoration-line: line-through;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn img{
+    margin: 7px;
+}
+
+.btn:hover{
+    background-color: hsl(212, 21%, 14%);
+}
